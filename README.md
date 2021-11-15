@@ -13,43 +13,40 @@ However, the sales team has the capacity to make 20,000 calls within the campaig
 # Business Problem
 
 1) Main Insights on the most relevant attributes of customers interested in purchasing auto insurance.
+2) What percentage of customers interested in purchasing auto insurance will the sales team be able to contact by making 20,000 calls?
+3) And if the sales team capacity increases to 40,000 calls, what percentage of customers interested in purchasing auto insurance will the sales team be able to contact?
+4) How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?
 
 ## Final Product
 
-Key insights into customer attributes
-
-Delivery Format Graphics/Table
+- Key insights into customer attributes
+- Percentage of interested base customers and whether 20K/40K calls can be met
+- Delivery Format Graphics/Table
 
 ## Process
 
-Perform feature engineering in the database (1st bd - 380K) of interested customers and raise the hypotheses for each attribute to be validated;
-
-At EDA, validate hypotheses and identify insights from interested customers;
-
-Define the delivery format (view, table, sentence)
-
-Graphics that best demonstrate the information.
-
-Definition of the storage infrastructure (SQLITE3)
-
-ETL Design (Extract, Transform and Load Scripts)
-
-Script scheduling planning (dependency between scripts)
-
-Delivery of the final product
+- Perform feature engineering in the database of interested customers and raise the hypotheses for each attribute to be validated;
+- At EDA, validate hypotheses and identify insights from interested customers;
+- Define the delivery format (view, table, sentence)
+- Graphics that best demonstrate the information.
+- Definition of the storage infrastructure (SQLITE3)
+- ETL Design (Extract, Transform and Load Scripts)
+- Script scheduling planning (dependency between scripts)
+- Define the delivery format (view, table, sentence)
+- Perform database analysis and apply ML models to obtain the attributes that define the customer most likely to purchase insurance. With these features define the number of potential customers and whether it is possible to serve with 20/40K calls.
 
 ## Enter
 
 Data source:
 
-Kaggle website
-BD on AWS
+- Kaggle website
+- BD on AWS
 
 Tools:
 
-Python 3.8.0
-AWS
-Pycharm
-Jupyter Notebook (analysis and prototyping)
-Streamlit
-telegram
+- Python 3.8.0
+- AWS
+- Pycharm
+- Jupyter Notebook (analysis and prototyping)
+- Streamlit
+
