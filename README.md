@@ -10,7 +10,7 @@ The product team selected 127,000 new customers who did not respond to the surve
 
 However, the sales team has the capacity to make 20,000 calls within the campaign period.
 
-# Business Problem
+# 1. Business Problem
 
 1) Main Insights on the most relevant attributes of customers interested in purchasing auto insurance.
 2) What percentage of customers interested in purchasing auto insurance will the sales team be able to contact by making 20,000 calls?
@@ -50,3 +50,4 @@ Tools:
 - Jupyter Notebook (analysis and prototyping)
 - Streamlit
 
+# 2. Data Insights
