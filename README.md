@@ -51,3 +51,50 @@ Tools:
 - Streamlit
 
 # 2. Data Insights
+
+Below the insights got from the data:
+
+**1. People between 30 years old are more susceptible to have an insurance**- People between 30 years old are more susceptible to have an insurance, 8.09%
+
+**2. Women hire more insurances**- Men hire 3% more insurances than women
+
+**3. Owners with new cars (< 1 yr) hire more insurances**- Owners with cars (> 2 yrs) hire more insurances
+
+**4. People with drive license hire more insurances**- People with a driver's license hire 6.68% more insurance than those without
+
+**5. Owners with vehicle damaged dont hire insurances**- Owners with vehicle damaged hire insurances
+
+**6. People previously insured hire another insurance**- People previously insured hire another insurance
+
+**7. Higher than 50K annual premium there are more insurances**- Higher than 50K annual premium there are more insurances 3.88%
+
+
+# 3. Machine Learning Model Applied
+
+Below it is listed the ML models applied:
+1) KNN
+2) Logistic Regresion
+3) Extra Trees
+4) Random Forest
+5) Naive Bayes
+6) LGBM
+7) XGBoost
+8) Guassian NB
+9) AdaBoost
+
+# 4. Machine Learning Modelo Performance
+
+| ML Model                | Precision               | Recall             |
+|:------------------------|:------------------------|:-------------------|
+| KNN                     | 0.3088 +/- 0.0026	      | 0.506 +/- 0.0046   |
+| Logistic Regression     | 0.291 +/- 0.0028        | 0.4766 +/- 0.0048  |
+| Extra Tress             | 0.313 +/- 0.0036	      | 0.513 +/- 0.0054   | 
+| Random Forest           | 0.3186 +/- 0.0039	      | 0.522 +/- 0.0065   |        
+| Naives Bayes            | 0.3028 +/- 0.0031	      | 0.496 +/- 0.0048   |
+| LGBM                    | 0.3518 +/- 0.0028	      | 0.5762 +/- 0.0047  |
+| XGBoost                 | 0.3492 +/- 0.0032	      | 0.5718 +/- 0.0054  |
+| Guassian NB             | 0.3028 +/- 0.0031	      | 0.496 +/- 0.0048   |
+| AdaBoost                | 0.3336 +/- 0.0016	      | 0.5462 +/- 0.0029  |
+
+
+
