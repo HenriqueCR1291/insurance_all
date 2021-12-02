@@ -10,6 +10,7 @@ The product team selected 127,000 new customers who did not respond to the surve
 
 However, the sales team has the capacity to make 20,000 calls within the campaign period.
 
+
 # 1. Business Problem
 
 1) Main Insights on the most relevant attributes of customers interested in purchasing auto insurance.
@@ -50,6 +51,11 @@ Tools:
 - Jupyter Notebook (analysis and prototyping)
 - Streamlit
 
+## Business Assumptions
+
+For this business assume 127K costumers and according to Quadrant Information Services the average car insurance cost in the United States is $1,674 per year for full coverage.
+
+
 # 2. Data Insights
 
 Below the insights got from the data:
@@ -82,6 +88,7 @@ Below it is listed the ML models applied:
 8) Guassian NB
 9) AdaBoost
 
+
 # 4. Machine Learning Modelo Performance
 
 | ML Model                | Precision               | Recall             |
@@ -97,4 +104,18 @@ Below it is listed the ML models applied:
 | AdaBoost                | 0.3336 +/- 0.0016	      | 0.5462 +/- 0.0029  |
 
 
+# 5. Business Results
 
+**1) What percentage of customers are interested in purchasing auto insurance, or the sales time to get contacted by making 20,000 calls?**
+With 20,000 calls using LGBM to rank potential customers on the top list, the sales team will call 47% of all interested parties (2242 from 4771), in total of 127000 leads, 3 times better the random method (15.7%).
+
+**2) How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?**
+With 40,000 calls, the sales team will reach 81.7% (3897 from 4771) of all interested parties, and the random method would call 31.5%.
+
+| Quant. of calls      | Total of leads          | Interested customers     | With LGBM      | Random method   | Insurance cost   | Difference between ML vs random   |
+|:---------------------|:------------------------|:-------------------------|----------------|-----------------|------------------|-----------------------------------|
+| 20000                | 127K             	     | 4771                     | 2242 (47%)     | 749 (15.7%)     | $1674            | ($3,753M - $1,253M) = $2,499,282  |
+| 40000                | 127K             	     | 4771                     | 3897 (81.7%)   | 1503 (31.5%)    | $1674            | ($6,523M - $2,516M) = $4,007,556  |
+
+**4) How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?**
+Would be necessary 39168 calls.
