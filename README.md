@@ -1,6 +1,6 @@
 # Insurance All
 
-Insurance All is a company that provides health insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: A car insurance.
+Insurance All is a company that provides health insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: a car insurance.
 
 As with health insurance, customers of this new car insurance plan must pay an amount annually to Insurance All in order to obtain an amount insured by the company, destined to the costs of an eventual accident or damage to the vehicle.
 
